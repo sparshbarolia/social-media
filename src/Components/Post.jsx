@@ -34,7 +34,7 @@ function Post(props) {
 
                         <button
                             type="button"
-                            class="btn btn-outline-danger"
+                            className="btn btn-outline-danger"
                             style={{width: "55px"}}
                             onClick={() => deletePost(props.post.id)}
                         >
