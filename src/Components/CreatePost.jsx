@@ -91,7 +91,7 @@ function CreatePost() {
                         />
                     </div>
                     
-                    <button type="submit" className="btn btn-primary">Post</button>
+                    <button type="submit" className="btn btn-primary mb-5">Post</button>
             </form>
         </>
     )
