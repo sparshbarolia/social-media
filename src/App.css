@@ -24,3 +24,38 @@
     margin-top: 50px;
     margin-left: 10%;
 }
+
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0px;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+}
+
+.header-container{
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+
+.post-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-btn{
+    position: absolute;
+    right: 10%;
+}

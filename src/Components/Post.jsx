@@ -7,10 +7,14 @@ function Post(props) {
 
     //deletePost ka context import krli
     const {deletePost} = useContext(PostList);
+                    //OR
+    // const contextObj = useContext(PostList);
+    // const deletePost = contextObj.deletePost;
+
 
     return (
         <>
-            <div className="card post-card" data-bs-theme="dark" style={{Width: "30rem"}}>
+            <div className="card post-card p-3" data-bs-theme="dark" style={{Width: "30rem"}}>
                 <div className="card-body">
                     <h5 className="card-title">
                         {props.post.title}
@@ -34,7 +38,7 @@ function Post(props) {
 
                         <button
                             type="button"
-                            className="btn btn-outline-danger"
+                            className="post-btn btn btn-outline-danger"
                             style={{width: "55px"}}
                             onClick={() => deletePost(props.post.id)}
                         >

@@ -11,7 +11,7 @@ function PostList() {
   // console.log(postList);
 
   return (
-    <>
+    <div className='post-container'>
       {
         postList.map((post) => (
           <Post 
@@ -20,7 +20,7 @@ function PostList() {
           />
         ))
       }
-    </>
+    </div>
   )
 }
 
