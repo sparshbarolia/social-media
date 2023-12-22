@@ -35,19 +35,19 @@ const PostListProvider = (props) => {
     const DEFAULT_POST_LIST = [
         {
             id: '1',
-            title: 'Going to Mumbai',
-            body: 'Or ye m asmaan ki uchaio me',
-            reactions: 2,
+            title: 'Hey Recruiters',
+            body: 'Welcome to my social media platform which I made using ReactJS',
+            reactions: 2987,
             userId: 'user-9',
-            tags: ['vacation', 'Mumbai', 'Enjoying']
+            tags: ['ReactJS', 'FrontEnd', 'useContext']
         },
         {
             id: '2',
-            title: 'Btech Pass',
-            body: 'Pappu pass hogya MUMYYYYYYYYYY',
+            title: 'Create a post',
+            body: 'You can create post by entering your details in Create Post section of the side bar',
             reactions: 15,
             userId: 'user-12',
-            tags: ['Graduating', 'Unbelievable']
+            tags: ['CreatePost', 'FirstPost']
         },
     ];    
 
